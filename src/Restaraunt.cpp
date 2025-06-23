@@ -1,6 +1,6 @@
 #include "../headers/Headers.hpp"
 
-Restaurant::Restaurant() = default;
+Restaurant::Restaurant() : menu() { };
     	
 Restaurant::Restaurant(const Restaurant& other) : menu{other.menu}, orders{other.orders} {
     int sizeOther = other.customers.size();

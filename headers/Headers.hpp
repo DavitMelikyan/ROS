@@ -4,11 +4,11 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "Order.hpp"
 #include "Customer.hpp"
 #include "Dish.hpp"
 #include "DishTypes.hpp"
 #include "Menu.hpp"
-#include "Order.hpp"
 #include "Restaurant.hpp"
 #include <gtest/gtest.h>
 

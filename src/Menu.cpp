@@ -1,10 +1,9 @@
 #include "../headers/Headers.hpp"
 
+Menu::Menu() { }
+
 Menu::Menu(const Menu& other) {
-    int size = other.dishes.size();
-    for (int i = 0; i < size; ++i) {
-        dishes[i] =  new Dish(*other.dishes[i]);
-    }
+    dishes = other.dishes;
 }
     	
 Menu& Menu::operator=(const Menu& other) {

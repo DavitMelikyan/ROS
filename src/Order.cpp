@@ -1,4 +1,7 @@
 #include "../headers/Headers.hpp"
+#include "./../headers/Order.hpp"
+#include "./../headers/Customer.hpp"
+#include "./../headers/Dish.hpp"
 
 Order::Order(Customer* curCustomer) : customer{curCustomer},totalPrice{0.0} { }
     	

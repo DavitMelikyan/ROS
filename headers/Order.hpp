@@ -1,6 +1,9 @@
 #ifndef ORDER_HPP
 #define ORDER_HPP
 #include "Headers.hpp"
+class Customer;
+class Dish;
+
 
 class Order {
 private:
