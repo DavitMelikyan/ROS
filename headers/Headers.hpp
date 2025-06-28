@@ -10,6 +10,5 @@
 #include "DishTypes.hpp"
 #include "Menu.hpp"
 #include "Restaurant.hpp"
-#include <gtest/gtest.h>
 
 #endif

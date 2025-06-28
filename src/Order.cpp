@@ -38,6 +38,10 @@ void Order::addDish(Dish* dish) {
     orderedDishes.push_back(dish);
 }
     	
+double Order::getTotal() const {
+    return totalPrice;
+}
+
 void Order::calculateTotal() {
     int size = orderedDishes.size();
     totalPrice = 0.0;

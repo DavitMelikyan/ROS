@@ -18,6 +18,7 @@ public:
     	Order& operator=(Order&& other) noexcept;
     	~Order() = default;
     	void addDish(Dish* dish);
+		double getTotal() const;
     	void calculateTotal();
     	void displayOrder() const;
 };

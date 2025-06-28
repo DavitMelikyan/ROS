@@ -31,7 +31,6 @@ Menu& Menu::operator=(Menu&& other) noexcept {
 		return *this;
 	}
     int sizeCur = dishes.size();
-	int sizeOther  = other.dishes.size();
 	for(int i = 0; i < sizeCur; ++i) {
 		delete dishes[i];
 	}
